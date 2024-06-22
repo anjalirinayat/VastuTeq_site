@@ -306,12 +306,7 @@ footer {
  .social-icons .bi{
     width: 30px;
      height: 30px;
-     border-radius: 50%;
      text-align: center;
-     line-height: 20px;
-     font-size:18px;
-     color: #000;
-    background: #fff;
      margin-right: 15px;
      cursor: pointer;
      display: inline-block;
@@ -322,7 +317,7 @@ footer {
      transition: 0s;
  }
  
- hr{
+footer hr{
      width: 90%;
      border: 0;
      border-bottom: 1px solid #ccc;
