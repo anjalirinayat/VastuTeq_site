@@ -6,51 +6,37 @@
 }
 
 header {
-   background-color: #f1f1f1;
-   padding-bottom:  50px;
-   height: 30px;
+    width: 100%;
+   background-color: #ffffff;
+   height: 60px;
    position: fixed;
    display: flex;
-   width: 100%;
+   justify-content: space-between;
    z-index: 1;
 }
 
-.logo-img img{
-    height: 57px;
-    width: 57px;
-    position: sticky;
-    padding-top: 20px;
+.logo img{
+    height: 60px;
+    width: 60px;
     padding-left: 30px;
 }
 
-.logo1{
-    margin-left: 22px;
-    width: 150px;
-    height: 150px 
-}
-
-
 nav {
-    float: right;
-    height: 30px;
-    padding-top: 30px;
-    padding-right: 0px;
-    padding-left: 50px; 
-    position: fixed;
+    background-color: #fdfcfc;
+    height: 60px;
+    margin-right: 5%;
 }
 
 nav ul {
     list-style: none;
-    margin: 0;
-    padding-right: 10px;
+    padding: 20px;
 }
 
 nav li {
     display: inline-block;
-    padding-top: 0%;
+    padding-top: 20px;
     margin-right: 20px;
     margin-left: 20px;
-    margin-bottom: 60px;
 }
 
 nav a {
@@ -62,63 +48,50 @@ nav a {
     width: 100%; 
     height: 2px; 
     background-color: #000000; 
-    margin-bottom: 0px;
-    margin-top: 65px;
+    margin-top: 60px;
   }
 
   .container {
-    max-width: 1000px;
+   width: 100%;
     margin: 0 auto;
     padding: 20px;
     text-align: left;
 }
 
 main {
-    padding: 150px 0;
-    background-image:linear-gradient(rgba(236, 229, 229, 0.479), rgba(217, 217, 217, 0.425)),url("images/Bg\ img\ Home.jpg");
+   height: 500px;
+    background-image:linear-gradient(rgba(236, 229, 229, 0.479), rgba(217, 217, 217, 0.425)),url("images/Hero-background.jpg");
     position: center;
     background-size:100%;
     max-width: 100%;
-    margin-top: 0px;
-}
-
-.hero-sec{
     margin-top: 5px;
 }
 
-.hero {
-    text-align: left;
+.hero-section{
+    padding-top: 100px;
+    padding-left: 120px;
 }
 
-.hero h2 {
+.hero-section h1{
     font-size: 3em;
-    margin-bottom: 10px;
-}
-
-footer {
-    background-color: #f1f1f1;
-    padding: 10px 0;
-    text-align: center;
-}
-
-.login {
-    display: inline-block;
-    padding: 5px 10px;
-    background-color: #333;
-    color: #fff;
 }
 
 .sup {
     vertical-align: super;
-    font-size: 50%;
+    font-size: 40%;
+}
+
+.cont-button{
+    padding-top: 120px;
 }
 
 .sub-button{
     height: 35px;
     width: 90px;
-    background-color: rgba(255, 17, 0, 0.582);
+    background-color: rgb(93, 72, 4);
     border-radius: 10px;
     border-width: 0px;
+    color: #fdfcfc;
 }
 
 .head-event{
