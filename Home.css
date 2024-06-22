@@ -86,6 +86,8 @@ main {
 }
 
 .sub-button{
+    padding: 5px;
+    text-decoration: none;
     height: 35px;
     width: 90px;
     background-color: rgb(93, 72, 4);
@@ -101,6 +103,7 @@ main {
 }
 
 .head-event a{
+    text-decoration: none;
     position: absolute;
     top: 0px;
     right: 75px;
@@ -117,16 +120,16 @@ main {
 }
 
 .panel-section{
+    background-color: #fdfcfc;
     box-sizing: inherit;
     box-shadow: 5px 5px 2px rgba(128, 128, 128, 0.438);
     border-radius: 0px 0px 10px 10px;
     border-style: outset;
     border-width: 2px;
-    /* border-color: #000000; */
 }
 
 
-.img-panel{
+iframe{
     height: 200px;
     width: 325px;
 }
@@ -144,6 +147,7 @@ main {
 
 .panel-section a{
     padding-left: 10px;
+    text-decoration: none;
 }
 
 .head-container{
