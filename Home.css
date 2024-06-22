@@ -217,6 +217,73 @@ main {
 
 }
 
+.testimonial{
+    height: 800px;
+    width: 100%;
+    background-image: linear-gradient(
+        to bottom,
+        #e1a256 0%,
+        #e1a256 50%,
+        #fdfcfc 50%,
+        #fdfcfc  100%
+    );
+}
+
+.headings{
+    display: block;
+    padding-top: 120px;
+    position: relative;
+}
+
+.headings h3{
+    padding-left: 120px;
+    font-size: 15px;
+}
+
+.headings span{
+    color: red;
+}
+
+.headings h1{
+   text-align: center;
+}
+
+.heading-line{
+    width: 70px;
+    height: 5px;
+    background-color: red;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.testimonial-sections{
+   width: 80%;
+   height: 400px;
+   margin: auto;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.one-section{
+   padding-top: 30px;
+   text-align: center;
+}
+
+.one-section img{
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
+
+.client-info h3{
+    color: #f4b466;
+}
+
+.client-info p{
+    font-size: small;
+    padding: 10px;
+}
+
 footer {
     width: 100%;
    bottom: 0;
@@ -257,13 +324,13 @@ footer {
      flex-basis: 15%;
  }
  
- ul li{
+ col ul li{
      list-style: none;
      margin-bottom: 12px;
  
  }
  
- ul li a{
+ col ul li a{
      text-decoration: none;
      color:#ffffff
  }
