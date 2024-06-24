@@ -1,9 +1,4 @@
-
-// const name = document.getElementById("name");
-// const email = document.getElementById("email");
-// const phone = document.getElementById("phone");
 const form = document.querySelector("form");
-// const errorMessage = document.getElementById("errorMessage");
 
 form.addEventListener("submit", (e) => {
     const name = document.getElementById("name");
@@ -41,6 +36,9 @@ form.addEventListener("submit", (e) => {
         errorMessage.innerHTML = errors.join(', ');
     }
 })
+
+
+
 
 
 
