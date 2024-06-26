@@ -1,0 +1,23 @@
+*{
+    font-family:'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container{
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.cont01 img{
+  position: absolute;
+  
+}
