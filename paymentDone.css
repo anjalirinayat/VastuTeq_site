@@ -5,19 +5,46 @@
     text-decoration: none;
 }
 
+header{
+	  width: 100%;
+	  min-height: 100vh;
+    background-image: url('images/Hero-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+	  font-size: 1.2rem;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+    opacity: 0.9;
+	  padding: 10%;
+}
+
 .container{
+    display: flex;
     position: absolute;
-    top: 10px;
-    bottom: 10px;
-    left: 10px;
-    right: 10px;
-    width: 30%;
-    height: 30%;
+    top: 20%;
+    bottom: 20%;
+    left: 20%;
+    right: 20%;
+    width: 60%;
+    height: 70%;
     border-radius: 10px;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
+}
+
+.cont01{
+  background-color: rgba(0, 0, 0, 0.445);
+  width: 50%;
+  display: block;
+  justify-content: center;
+  align-items: center;
 }
 
 .cont01 img{
-  position: absolute;
-  
+ align-self: center;
+}
+
+.cont02{
+  background-color: rgba(0, 0, 0, 0.687);
+  width: 50%;
 }
