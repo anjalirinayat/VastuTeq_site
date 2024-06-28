@@ -5,102 +5,11 @@
     text-decoration: none;
 }
 
-/* header {
-    width: 100%;
-   background-color: #ffffff;
-   height: 60px;
-   position: fixed;
-   display: flex;
-   justify-content: space-between;
+.product{
+    font-weight: 700;
+    color: #e1a256;
 }
 
-.logo img{
-    height: 60px;
-    width: 60px;
-    padding-left: 30px;
-}
-
-nav {
-    background-color: #fdfcfc;
-    height: 60px;
-    margin-right: 5%;
-}
-
-nav ul {
-    list-style: none;
-    padding: 20px;
-}
-
-nav li {
-    display: inline-block;
-    padding-top: 8px;
-    position: relative;
-}
-
-nav a {
-    text-decoration: none;
-    color: #000000;
-    position: relative;
-    z-index: 1;
-}
-nav .animation{
-    position: absolute;
-    height: 100%;
-    bottom: 10%;
-    z-index: 0;
-    background: #ecf335;
-    width: 100px;
-    border-radius: 6px;
-    transition: all .5s ease 0s;
-}
-nav li:nth-child(1){
-    width: 90px;
-}
-nav .start-Home,li:nth-child(1):hover~.animation{
-    width: 90px;
-    left: 46.35em;
-}
-nav li:nth-child(2){
-    width: 100px;
-}
-nav .start-Products,li:nth-child(2):hover~.animation{
-    width: 100px;
-    left: 53.3em;
-}
-nav li:nth-child(3){
-    width: 100px;
-}
-nav .start-Services,li:nth-child(3):hover~.animation{
-    width: 100px;
-    left: 60em;
-}
-nav li:nth-child(4){
-    width: 80px;
-}
-nav .start-Vastu,li:nth-child(3):hover~.animation{
-    width: 80px;
-    left: 66.6em;
-}
-nav li:nth-child(5){
-    width: 110px;
-}
-nav .start-AboutUs,li:nth-child(3):hover~.animation{
-    width: 110px;
-    left: 71.7em;
-}
-nav li:nth-child(6){
-    width: 110px;
-}
-nav .start-ContactUs,li:nth-child(3):hover~.animation{
-    width: 110px;
-    left: 79em;
-}
-.header-line {
-    width: 100%; 
-    height: 2px; 
-    background-color: #000000; 
-    margin-top: 42px;
-  } */
 
 .product{
     padding: 30px;

@@ -1,6 +1,13 @@
-*{padding:0; margin:0; box-sizing: border-box; font-family:sans-serif;}
-header{
-	width: 100%;
+*{
+	font-family:'Poppins', sans-serif;
+	padding:0; 
+	margin:0; 
+}
+.product{
+    font-weight: 700;
+    color: #e1a256;
+}
+section{
 	min-height: 100vh;
     background-image: url('images/Hero-background.jpg');
     background-repeat: no-repeat;
@@ -19,16 +26,10 @@ header{
 	min-height: 800px;
 	display: block;
 	justify-content:space-between;
-	/* align-items: flex-start; */
 	padding: 50px;
 	border-radius: 10px;
 }
-/* .left{
-    flex-basis: 50%;
-}
-.right{
-    flex-basis: 50%;
-} */
+
 form{
 	padding: 1rem;
 }

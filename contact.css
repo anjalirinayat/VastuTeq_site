@@ -1,8 +1,11 @@
 *{
+    font-family:'Poppins', sans-serif;
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact{
+    font-weight: 700;
+    color: #e1a256;
 }
 .git{
     margin-top: 100px;
