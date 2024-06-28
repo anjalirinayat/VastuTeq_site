@@ -394,7 +394,7 @@ footer {
      transition: 0s;
  }
  
-footer hr{
+hr{
      width: 90%;
      border: 0;
      border-bottom: 1px solid #ccc;
