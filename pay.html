@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Summary</title>
+    <link rel="stylesheet" href="pay.css">
+    <script src="pay.js" defer></script>
+</head>
+
+<body>
+    <vastuteq-header></vastuteq-header>
+    <div class="section-wrapper">
+        <section class="container">
+            <h3 class="billing">BILLING ADDRESS</h3>
+            <form id="myForm">
+                <label for="name">Full name</label>
+                <input id="name" type="text" placeholder="Enter Name">
+                <label for="email">E-mail</label>
+                <input id="email" type="text" placeholder="Enter E-mail">
+                <label for="phone">Phone no</label>
+                <input id="phone" type="text" placeholder="Enter Phone no">
+
+                <h3>PAYMENT</h3>
+                <label>Accepted Card</label>
+                <br><br>
+                <label for="card">Credit card number</label>
+                <input id="card" type="text" placeholder="Enter card number">
+                <label for="month">Exp month</label>
+                <input id="month" type="text" placeholder="Enter Month">
+                <div class="details">
+                    <label for="cvv">CVV</label>
+                    <input id="cvv" type="number" placeholder="CVV">
+                </div>
+                <p id="errorMessage" hidden></p>
+                <input id="submit" type="submit" value="Proceed to Checkout">
+            </form>
+        </section>
+        <div id="summary" class="summary-container hidden">
+            <h3>Summary</h3>
+            <div id="summaryText" class="summary-content"></div>
+            <div class="buttons">
+                <button onclick="window.print()">Print</button>
+                <button id="doneButton">Done</button>
+            </div>
+        </div>
+    </div>
+    <vastuteq-footer></vastuteq-footer>
+</body>
+
+</html>
