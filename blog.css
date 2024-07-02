@@ -9,12 +9,25 @@
     color: #e1a256;
 }
 .intro{
-    margin-top: 50px;
-    margin: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 10%;
     text-align: center;
 }
+.entrance svg{
+    margin-bottom: 0;
+}
+.info{
+    text-align: center;
+    background-image: linear-gradient(
+        to bottom,
+        #e1a256  0%,
+        #e1a256 50%,
+        #fdfcfc 50%,
+        #fdfcfc  100%
+    );  
+}
+
 
 
 
